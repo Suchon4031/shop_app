@@ -1,0 +1,18 @@
+<%# CSS・・・assets/stylesheets/header.css %>
+<header class="header-main">
+  <div class="header-title">
+    <%= link_to "CAFE NAVI",  "#",class:"title" %>
+    <%= image_tag("coffee.png", class:"coffee-icon") %>
+  </div>
+  <div class="nav">
+    <ul class="loglist">
+      <%# if user_signed_in? %>
+        <li><%= link_to "ユーザー名", "#", class: "user-nickname" %></li>
+        <li><%= link_to "ログアウト", "#", class: "logout" %></li>
+      <%# else %>
+        <%# <li><%= link_to "ログイン", "#", class: "login" %></li>
+        <%# <li><%= link_to "新規登録", "#", class: "sign-up" %></li>
+      <%# end %>
+    </ul>
+  </div>
+</header>
