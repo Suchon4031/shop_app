@@ -1,0 +1,13 @@
+.index-main{
+  padding: 50px 50px;
+}
+
+.maps{
+  display: flex;
+  justify-content: center;
+}
+
+.map{
+  width: 800px;
+  height: 600px;
+}

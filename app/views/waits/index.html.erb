@@ -1,3 +1,8 @@
-<!DOCTYPE html>
-
 <%= render "header" %>
+<div class="index-main">
+  <div class="maps">
+    <div id="map" class="map">
+      <script src="https://maps.googleapis.com/maps/api/js?key=<%=ENV["MAP_API_KEY"]%>&libraries=places&callback=Function.prototype"></script>  
+    </div>
+  </div>
+</div>
